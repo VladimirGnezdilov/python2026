@@ -1,6 +1,0 @@
-x=("  VLADIMIR   soft   solutions ")
-z= x.strip( )
-y=z.title()
-u= " ".join(y.split())
-r=y.split()
-print(f"количество символов -{len(u)}, получилось-{u}, words-{len(r)}")
