@@ -10,4 +10,3 @@ def process_clinic_data(tickets, finished):
         visits.pop(i, 0) 
     print(visits)
 result = process_clinic_data(tickets, finished)
-print(result)
