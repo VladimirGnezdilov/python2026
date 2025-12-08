@@ -1,3 +1,4 @@
+
 stations = [
     ('laser', '2025-12-02 12:00'),
     ('cnc', '2025-12-04 09:45'),
@@ -7,15 +8,10 @@ check_tool = 'cnc'
 unused_tool = 'lathe'
 
 diagnostics={}
-check_tool = 'cnc'
-unused_tool = 'lathe'
 diagnostics.update(stations)
 for i in diagnostics.keys():
    if i==check_tool:
-    print(f"{i}->{diagnostics.value()}")
+    print(f"{i}->{diagnostics.get(i)}")
+    continue
    else:
     continue
-    if i==unused_tool:
-     print(f"{i}->не проверялось")
-    else:
-      continue
