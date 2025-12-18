@@ -11,7 +11,7 @@ def is_adult(age):
         return True
     else:
         return False
-print(is_adult(20))
+print(is_adult(20)
 
 
 
@@ -20,4 +20,4 @@ def safe_div(a, b):
         return None
     else:
         return a/b
-print(safe_div(20,10))
+print(safe_div(20,10)
